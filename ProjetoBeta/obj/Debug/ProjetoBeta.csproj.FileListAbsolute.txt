@@ -1,0 +1,13 @@
+C:\Projects\Optica\ProjetoBeta\bin\Debug\ProjetoBeta.exe.config
+C:\Projects\Optica\ProjetoBeta\bin\Debug\ProjetoBeta.exe
+C:\Projects\Optica\ProjetoBeta\bin\Debug\ProjetoBeta.pdb
+C:\Projects\Optica\ProjetoBeta\obj\Debug\ProjetoBeta.csprojAssemblyReference.cache
+C:\Projects\Optica\ProjetoBeta\obj\Debug\ProjetoBeta.frm_MenuPrincipal.resources
+C:\Projects\Optica\ProjetoBeta\obj\Debug\ProjetoBeta.frm_Produtos.resources
+C:\Projects\Optica\ProjetoBeta\obj\Debug\ProjetoBeta.Properties.Resources.resources
+C:\Projects\Optica\ProjetoBeta\obj\Debug\ProjetoBeta.csproj.GenerateResource.cache
+C:\Projects\Optica\ProjetoBeta\obj\Debug\ProjetoBeta.csproj.CoreCompileInputs.cache
+C:\Projects\Optica\ProjetoBeta\obj\Debug\ProjetoBeta.exe
+C:\Projects\Optica\ProjetoBeta\obj\Debug\ProjetoBeta.pdb
+C:\Projects\Optica\ProjetoBeta\obj\Debug\ProjetoBeta.frm_Receitas.resources
+C:\Projects\Optica\ProjetoBeta\obj\Debug\ProjetoBeta.panelMenu.resources
