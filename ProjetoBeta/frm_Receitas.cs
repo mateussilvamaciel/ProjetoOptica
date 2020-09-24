@@ -20,8 +20,7 @@ namespace ProjetoBeta
 
         private void btnMenu_Click(object sender, EventArgs e)
         {
-            frm_MenuPrincipal frm = new frm_MenuPrincipal();
-            frm.Show();
+            this.Close();
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -56,6 +55,16 @@ namespace ProjetoBeta
         {
             ReleaseCapture();
             SendMessagem(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void frm_Receitas_Load(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
         }
     }
 }

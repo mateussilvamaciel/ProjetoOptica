@@ -32,6 +32,7 @@ namespace ProjetoBeta
         private void btnCliente_Click(object sender, EventArgs e)
         {
             panelMenu frm = new panelMenu();
+            frm.WindowState = FormWindowState.Maximized;
             frm.Show();
         }
 
@@ -78,6 +79,12 @@ namespace ProjetoBeta
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            frm_Lab frm = new frm_Lab();
+            frm.Show();
         }
     }
 }

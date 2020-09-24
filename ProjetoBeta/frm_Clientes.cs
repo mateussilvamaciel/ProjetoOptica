@@ -50,8 +50,7 @@ namespace ProjetoBeta
 
         private void btnVoltar_Click_1(object sender, EventArgs e)
         {
-            frm_MenuPrincipal frm = new frm_MenuPrincipal();
-            frm.Show();
+            this.Close();
         }
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();

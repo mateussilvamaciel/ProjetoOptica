@@ -20,8 +20,7 @@ namespace ProjetoBeta
 
         private void btnMenu_Click(object sender, EventArgs e)
         {
-            frm_MenuPrincipal frm = new frm_MenuPrincipal();
-            frm.Show();
+            this.Close();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -56,6 +55,17 @@ namespace ProjetoBeta
         {
             ReleaseCapture();
             SendMessagem(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            frm_CadastroProduto frm = new frm_CadastroProduto();
+            frm.Show();
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
